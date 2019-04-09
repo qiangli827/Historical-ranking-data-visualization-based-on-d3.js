@@ -12,7 +12,7 @@
   max_number: 20,
 
   // 控制是否显示顶部附加信息文字。
-  showMessage: true,
+  showMessage: false,
 
   // 时间自动排序。
   // !!!请确保打开此项时，使用的是标准日期格式！(即：YYYY-MM-DD HH:MM)
@@ -35,7 +35,7 @@
 
   // 字段的值与其对应的颜色值
   color: {
-    Chinese: "#17C"
+    red: "red"
   },
 
   // 颜色绑定增长率
@@ -96,9 +96,9 @@
 
   // 图表左右上下间距。
   // 注意，left_margin不包括左侧的label，修改数值较小会导致左侧label不显示
-  left_margin: 250,
+  left_margin: 200,
   right_margin: 150,
-  top_margin: 180,
+  top_margin: 100,
   bottom_margin: 0,
 
   // 是否开启时间标签。
@@ -154,5 +154,5 @@
 
   // 限制bar info 展示的长度
   // limit bar info display length
-  bar_name_max: 30
+  bar_name_max: 15
 };

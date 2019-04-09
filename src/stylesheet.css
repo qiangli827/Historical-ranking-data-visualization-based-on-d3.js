@@ -4,9 +4,11 @@
  * @create date 2018-05-03 08:44:46
  * @modify date 2019-03-20 15:17:32
 */
-body {
+html, body {
     margin: 0px;
+	width: 100%;
 }
+
 
 input {
     position: absolute;
@@ -30,7 +32,7 @@ input {
 
 .label {
     fill: rgb(92, 92, 92);
-    font-size: 15pt;
+    font-size: 12pt;
     font-family: "Fira Code", "Source Han Sans CN";
     font-weight: bold
 }
@@ -83,9 +85,9 @@ input {
 }
 
 .barInfo {
-    fill: rgb(255, 255, 255);
+    fill: rgba(255, 255, 255, 1);
     font-weight: 800;
-    font-size: 24pt;
+    font-size: 10pt;
     font-family: "Fira Code", "Source Han Sans CN"
 }
 
